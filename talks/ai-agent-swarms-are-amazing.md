@@ -1,7 +1,7 @@
 # AI Agent Swarms Are Amazing 
 
 ## Joel Hooks
-### Pulumi, Badass Courses, Portland, OR USA 
+### Badass Courses, Portland, OR USA 
 - [Speaker's Notes (Placeholder)]()
 - [Speaker's Website](https://cascadia.wzrrd.sh/)
 - [Post-conference YouTube Recording (Placeholder)]()
