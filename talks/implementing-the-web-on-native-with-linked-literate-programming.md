@@ -29,4 +29,15 @@ Web specs are great inputs for LLP
 An effective pattern: Implement web APIs in native apps
 Native apps use the same JS API
 
+### How the links work
+Agents import the spec, then leave linking comments back to it from the code,
+e.g. `// @ref LLP 0000mediastream-constructor` pointing at a spec heading like
+`# Constructors [mediastream-constructor]`. The same spec can drive both web and
+native implementations.
+
+Workflow: set up LLP, pull the relevant parts of a spec, then test coverage —
+Web Platform Tests (WPT) close the loop, since the edge cases are already
+considered in the spec. The result is a more programmatic feedback loop between
+spec and code.
+
 [Camera Demo specs referenced](https://github.com/expo/web-standard-camera-demo)

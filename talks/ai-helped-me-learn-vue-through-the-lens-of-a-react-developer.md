@@ -10,7 +10,13 @@ AI, React, Vue - what do all of these things have in common? They are tools mean
 ## Community talk notes: 
 
 ### Why think about using AI to learn?
-AI is a skill to be learned. Consider it as the Ultimate Rubber Ducky
+AI is a skill to be learned. Consider it as the Ultimate Rubber Ducky.
+
+A reframing on productivity: the *expectation* is ~20% faster, but on real tasks
+devs were measured ~19% *slower*. Less-experienced devs got the boost; more
+experienced devs got the fuzzy end of the lollipop. So treat AI as a learning
+tool and manage the risk — acknowledge when it's moving too fast and ask
+clarifying questions.
 
 The Learning Loop for languages
 1. Translate the fundamentals of what you know to the concept you're trying to learn
@@ -18,6 +24,9 @@ The Learning Loop for languages
    - Translate and summarize the concepts
 2. Practice / Review
    - Simulate debugging
+   - Ask for an easily digestible diagram, and for examples built off an example
+   - Have AI generate quiz questions to test your knowledge, then fill the gaps
+   - Have a Socratic conversation
    - Feynman Technique
      - Explain your understanding of the concept to AI, and confirm it's correct
 3. Convert

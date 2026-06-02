@@ -50,3 +50,15 @@ Reference: agentdungeon.ai
 Your agents playing D&D
 
 Takeaway: """Agent swarms are hard af (but really fun)"""
+
+#### Further references mentioned
+- Addy Osmani — "The Orchestration Tax": cognitive bandwidth is not
+  parallelizable. The real skill is building systems that can pull any and all
+  threads within the context limit.
+- "Slow the F*** Down" / *Slow Productivity* — don't do everything, and don't do
+  it quickly.
+- A self-improving harness (Pi can read its own source to extend itself), Pi
+  subagents to run parallel chains, and `pi-feedback` (a support-inbox tool that
+  sends the last turn's diff to process session feedback).
+- Other names/projects dropped: Sunil Pai, Dillon Mulroy (artifacts as agent
+  memory primitives), Mario.
