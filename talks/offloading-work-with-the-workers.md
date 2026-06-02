@@ -10,3 +10,6 @@ A workshop on using Render Workflows to handle background jobs without managing 
 
 [[More info and how to register]](/2026/workshops/offloading-work-with-the-workers)
 ## Community talk notes: 
+
+Workshop repository: https://github.com/ojusave/workshop-demo
+Tutorial: https://render-tutorials-ojus.onrender.com/tutorials/stock-research-with-workflows
