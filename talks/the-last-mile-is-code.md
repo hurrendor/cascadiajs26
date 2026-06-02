@@ -25,3 +25,15 @@ Using Infrastructure as Code (IaC) to make the last mile programmable.
 
 As the last mile becomes the same language as the app, anyone can ship it. Shipping is no longer a separate team's job anymore.
 #### The last mile is code
+
+### Supporting data points
+- Agent code quality has climbed fast: on SWE-Bench, scores moved from ~33 (Aug
+  '24) to ~94, with the contamination-resistant Pro variant around 78.
+- Agents do measurably better when they *act by writing code* rather than
+  emitting config — about +20% (from "CodeAct: Executable Code Actions Elicit
+  Better LLM Agents").
+- Agents now drive ~28% of deployments, up from ~4% late last year.
+- Andrej Karpathy: "Building a modern app is a bit like assembling IKEA
+  furniture." IaC lets you preview the change before it happens — like a
+  `git diff` for your infrastructure — so infra can be reviewed, approved, and
+  merged the same way app code is.

@@ -44,4 +44,21 @@ MCP
 - specs can be pulled from project management services 
 - from project managers - use any vibe apps created to create the specs
 
+### The three phases in practice
+- **Requirements** — written with EARS (Easy Approach to Requirements Syntax).
+- **Design** — review the markdown, approve, then move to implementation.
+- **Implementation** — can be done out of order; build an MVP as a pedantic,
+  tight vertical slice and keep reviewing as you go.
+
+### Property-based tests as a regression net
+Use property-based testing to run regression tests against the requirements:
+"take all these steps and create the [tests] I can use to prove this works."
+The question to keep asking: conceptually, does it work as I expect?
+
+### A little history
+Kiro grew out of AWS's experience (Alexa) and started life as a VS Code fork
+before becoming a spec-mode tool you can use even in a brownfield app. You don't
+strictly need Kiro — you can tell any AI IDE to follow the same
+requirements → design → implementation flow (Spec-kit, Open Spec, BMad).
+
 ### How Spec Driven Development can make code faster

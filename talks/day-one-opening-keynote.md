@@ -60,3 +60,13 @@ Working in AI-native environments to allow aysnc agents to work autonomously.
 ### The Road Ahead
 """As agents become autonomous and our whole team become builders, we need to reshape every part of our developer platforms"""
 Netlify provided Axis, an open-source framework developed to rate the agent experience.
+
+A few extra specifics from the talk:
+- **Access** — emerging standards like WorkOS's self-authenticating identity for
+  AI agents; Netlify's database is exposed to agents as batteries-included.
+- **Context** — moving an API straight to MCP will overwhelm the context window,
+  so limit it to a handful of tools and "steer" the context.
+- **Tools** — a CLI is often great DX but bad AX (interactive prompts hurt);
+  provide prompt escape hatches.
+- **Evals** — measuring AX is itself a discipline; Axis (axis.run) is the tool
+  for actually scoring how well an agent can onboard to a product.

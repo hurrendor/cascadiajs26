@@ -44,3 +44,12 @@ A good fit can include plain data that can be data intensive.
 - Size
 - Complexity of the data
 - Data confidence
+
+### A couple of extra notes
+- Framing: jank is a *workload* problem, not a rendering one — the main thread
+  is the front desk, and heavy JS blocks the line.
+- Boring message contracts make cancellation easy: tag each message with a
+  `requestId`, and treat the latest message as the live request so stale ones
+  can be dropped preemptively.
+- Workers add complexity, so they're overkill for plain UI work — reach for them
+  when the work is genuinely data-intensive.
