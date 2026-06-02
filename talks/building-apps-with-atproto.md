@@ -2,7 +2,7 @@
 
 ## Brittany Ellich
 ### Bluesky, Portland, OR USA 
-- [Speaker's Notes (Placeholder)]()
+- [Speaker's Notes](https://docs.google.com/presentation/d/1GCG0h4H5w-ZLJ0Gl9YkQXu1iHyivS-AhueAtUzqfqzw/edit)
 - [Speaker's Website](https://brittanyellich.com/)
 - [Post-conference YouTube Recording (Placeholder)]()
 ## Abstract: 

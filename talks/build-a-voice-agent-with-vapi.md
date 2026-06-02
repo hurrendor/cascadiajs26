@@ -2,7 +2,7 @@
 
 ## Amanda Martin
 ### Vapi, San Francisco, CA USA 
-- [Speaker's Notes (Placeholder)]()
+- [Speaker's Notes](https://squad-workshop.val.run/#overview)
 - [Post-conference YouTube Recording (Placeholder)]()
 ## Abstract: 
 

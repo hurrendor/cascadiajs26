@@ -2,7 +2,8 @@
 
 ## Filip Sodić
 ### Wasp, Zagreb, Croatia 
-- [Speaker's Notes (Placeholder)]()
+- [Speaker's Notes - Keynote](https://sodic.dev/choosing-typescript-matters-cascadiajs-2026.key)
+- [Speaker's Notes - PDF](https://sodic.dev/choosing-typescript-matters-cascadiajs-2026.pdf)
 - [Post-conference YouTube Recording (Placeholder)]()
 ## Abstract: 
 
@@ -45,3 +46,5 @@ TypeScript is best
 - Removed legacy baggage
 - Rewrite in Go
 - Most popular language in Github today
+
+[Feedback form](https://forms.gle/RF8DMhwSvgxKjtnEA)

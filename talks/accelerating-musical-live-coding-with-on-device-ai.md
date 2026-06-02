@@ -2,7 +2,7 @@
 
 ## Alex Hinson
 ### Fleetio, Chattanooga, TN USA 
-- [Speaker's Notes (Placeholder)]()
+- [Speaker's Notes](https://cascadiajs-alex.netlify.app/1)
 - [Post-conference YouTube Recording (Placeholder)]()
 ## Abstract: 
 

@@ -13,7 +13,7 @@ Agent swarming is a fascinating pattern to massively parallelize work with AI Ag
 Developer superpowers
 #37 - Own your harness
 
-Joel references this URL for referenced links throughout the talk: https://cascadia.wzrrd.sh/
+[Resource reference page](https://cascadia.wzrrd.sh/)
 
 ### Harness Engineering is now
 Previously: context engineering
