@@ -2,7 +2,7 @@
 
 ## Dylan Goings
 ### Atomic Object, Ann Arbor, MI USA 
-- [Speaker's Notes (Placeholder)]()
+- [Slides](https://learningasleadership.my.canva.site/cascadiajs-presentation)
 - [Post-conference YouTube Recording (Placeholder)]()
 ## Abstract: 
 

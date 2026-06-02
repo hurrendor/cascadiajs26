@@ -2,7 +2,7 @@
 
 ## Jonathan Keslin
 ### Atlassian, Kirkland, WA USA 
-- [Speaker's Notes (Placeholder)]()
+- [Slides](https://jonathankeslin.com/cascadiajs26)
 - [Post-conference YouTube Recording (Placeholder)]()
 ## Abstract: 
 

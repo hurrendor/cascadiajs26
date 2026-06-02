@@ -3,6 +3,7 @@
 ## James Ide
 ### Expo, Palo Alto, CA USA 
 - [Speaker's Notes (Placeholder)](https://github.com/ccheever/llp)
+- [Slides](https://github.com/expo/web-standard-camera-demo/releases/download/v1.0.0/slides.pdf)
 - [Post-conference YouTube Recording (Placeholder)]()
 ## Abstract: 
 
