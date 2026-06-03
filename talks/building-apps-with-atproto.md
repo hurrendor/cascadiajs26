@@ -28,3 +28,23 @@ Handles can be found at (PDSLS.dev as well)[https://pdsls.dev/]
 
 ### 4. Exploring the Atmosphere
 ATProto apps are registered on (ATStore)[https://atstore.fyi]
+
+(Brittany hosts the *Overcommitted* podcast — [brittanyellich.com](https://brittanyellich.com/).)
+
+### More on how we got here
+The typical platform timeline — launch, growth, monetize, maximize — leans on design that traps users (A/B testing, infinite scroll, pull-to-refresh). They persist despite this because they're hard to leave: they exist to maximize revenue, not connect people. It's hard to leave a platform when it owns your data — and the platform may leave *without you* (à la Google+).
+
+### Your data is yours
+With ATProto, apps have to be *good* to keep people using them — if an app does something you don't like, you can just leave without losing anything; the data, content, and people are yours to take with you. People can build their own way to render content; it doesn't live in Bluesky, the user is in charge. Alternative clients:
+- **blacksky** — an alternative to Bluesky
+- **witchsky** — adds badges/pronouns, a different representation
+- **anisota** — a simplified view
+
+### A tour of the Atmosphere
+You don't have to worry about auth anymore. Some apps registered on [ATStore](https://atstore.fyi):
+- **Sifa.id** — professional identity network
+- **Streamplace** — open-source app for video and livestreaming (get content out easily to multiple destinations)
+- **rpg.actor** — create an RPG character
+- **atmo.quest** — connect with folks at events
+
+This is what open social looks like when it actually works.

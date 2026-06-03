@@ -4,6 +4,7 @@
 ### Wasp, Zagreb, Croatia 
 - [Speaker's Notes - Keynote](https://sodic.dev/choosing-typescript-matters-cascadiajs-2026.key)
 - [Speaker's Notes - PDF](https://sodic.dev/choosing-typescript-matters-cascadiajs-2026.pdf)
+- [Request the original presentation / more resources (form)](https://forms.gle/j5KMBi1ASB5d1Lj76)
 - [Post-conference YouTube Recording (Placeholder)]()
 ## Abstract: 
 
@@ -46,5 +47,19 @@ TypeScript is best
 - Removed legacy baggage
 - Rewrite in Go
 - Most popular language in Github today
+
+### The tower of abstractions
+Consider the world we've built for the agents: a tower of abstractions, 0/1 at the bottom; climb the tower — ASM, compilers → C, then TS/Go/Python, then frameworks, then applications. In years past we spent most of our time in the language layer. People who dabble in predictions ask where things will land: squashing the lower (and even the higher-level) languages. The truth is in the middle, between irrelevancy and "English is a programming language" — English is not a good programming language.
+
+> Fred Brooks: "Show me your flowcharts and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowcharts; they'll be obvious."
+
+So instead of defining what we want in a prompt (basically a specification), take a step back and define the type **manually** — that's more precise than English. We can compress our memory *and* preserve context by reaching for the right type: think about the questions related to our domain, then define the appropriate types, discovering the domain *while* building the model.
+
+### On the "just write tests" path
+You *can* move some memory into code with test coverage and case exhaustion (plus a happy path) — just use JS, not TS, and add a bunch of tests if you want to throw off 100k lines of code a day. But that reduces entropy by adding extra code, and tests still expect both us and the agent to generalize.
+
+### Odds and ends
+- *GrillMe* — a skill to help refine domain modeling (also mentioned by another speaker the day before).
+- He considered going deep on branded types, result types, ensuring exhaustiveness, smart constructors, and edge type safety — but decided to keep it simpler. Request the original presentation for that depth (form linked above).
 
 [Feedback form](https://forms.gle/RF8DMhwSvgxKjtnEA)
