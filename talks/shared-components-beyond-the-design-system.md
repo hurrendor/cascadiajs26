@@ -40,5 +40,5 @@ design-system candidates or live one layer up. How should you build them?
 ### Foster an ecosystem & provide governance
 Shared components are valuable, so invest in discoverability — a doc site or
 marketplace; good docs matter more than ever. Define patterns and practices, and
-recognize authors for contributions. A quality-scale model like Home Assistant's
-bronze/silver/gold tiers gives contributions a clear bar to clear.
+recognize authors for contributions. A quality-scale model like [Home Assistant's
+bronze/silver/gold tiers](https://www.home-assistant.io/docs/quality_scale/) gives contributions a clear bar to clear.

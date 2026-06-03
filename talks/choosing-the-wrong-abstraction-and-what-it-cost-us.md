@@ -2,7 +2,7 @@
 
 ## Darius Cepulis
 ### Mux, Oak Park, IL USA 
-- [Speaker's Notes (Placeholder)]()
+- [Speaker's Notes](https://github.com/decepulis/Choosing-the-Wrong-Abstraction)
 - [Post-conference YouTube Recording (Placeholder)]()
 ## Abstract: 
 

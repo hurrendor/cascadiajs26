@@ -31,6 +31,7 @@ Approaches to reducing memory fade
     - Tests transfer more context and help document knowledge, but don't prevent mistakes
   - Writing types
     - *If you know something, the types should know it as well*
+    - A practical framing: writing types saves tokens — the more the agent can infer from your type system, the less you have to say in a prompt
 
 2. What if we start with questions?
     - Write the types out from the answers
