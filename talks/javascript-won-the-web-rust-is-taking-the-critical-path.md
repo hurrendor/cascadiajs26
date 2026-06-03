@@ -76,4 +76,29 @@ For most teams, the answer would be hybrid.
 Keep TypeScript, and use Rust for constraints
 Keep the Rust core outside the framework
 
+### The Rust web stack (the diagram walkthrough, in list form)
+- **Web frameworks:** Axum + Actix
+- **Foundations:** Hyper + Tower
+- **Database layer:** SQLx, Diesel, SeaORM
+- **Async runtime:** Tokio
+- **Observability:** OpenTelemetry
+
+### Tokio and futures — a mental model
+Similar to Node.js: an `async fn` creates a future — lazy work. The Tokio runtime is the executor / scheduler / reactor / timers / async I/O / task spawning. When a future is ready, it runs. It's the machinery that lets many futures make progress efficiently — it is **not** a thread.
+
+Axum flow: the real production engineering starts when many handlers share the same runtime.
+
+Database access: SQLx keeps SQL **explicit** and moves more failures earlier — at compile time it verifies the Rust types against the schema. It's not an ORM, but it has compile-time guarantees.
+
+### Where Rust actually wins (specifics)
+Backend, auth, billing, realtime, proxies, WASM/tooling, queues — **realtime is the biggest win.**
+
+### Different tools, different wins
+- **Rust** wins when correctness, latency, safety, and predictability matter most.
+- **Go** is a simpler choice, but not the correctness win.
+- **Java/Kotlin** for tooling, maturity, and big teams.
+- **JS/TS** for the fastest speed of development.
+
+Keep TypeScript for the frontend (UI, fast iteration), use Rust for constraints — **hybrid wins.** Reusable business logic travels well across WASM, back-end, and CLI.
+
 ### Rust does not need to own the web, but it does need to own the critical path 

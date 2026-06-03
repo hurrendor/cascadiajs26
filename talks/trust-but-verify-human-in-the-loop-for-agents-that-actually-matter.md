@@ -21,5 +21,10 @@ Pattern #3 - CIBA (Client initiated backchannel auth)
 For when the stakes are too high for a chat reply, such as in financial, medical or legal decisions. On separate devices, etc.
 The industry is already doing this, such as with Stripe.
 
+A bit more on each pattern:
+- **Interrupt** — low stakes, synchronous, one function call: the agent asks, the human answers, the agent continues.
+- **Token vault** — the agent hits a wall, you authorize it, and it succeeds on retry. Hand out a short-lived token scoped *only* to what's needed.
+- **CIBA** — for stakes too high for a chat reply (financial, medical, legal), on a separate device. The industry already does this (e.g. Stripe).
+
 ### Match the patterns to the stakes
 The higher the stakes, the bigger the external triggers
