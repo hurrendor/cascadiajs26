@@ -37,13 +37,22 @@ Covering the experience that agents will have as they work with a product or pla
 ### How to AX?
 It's about understanding how agents experience your product. Every product already has an Agent Experience — the question is whether it's good.
 
-**1. Access** — Bots used to get banned for being bots; being a bot is no longer inherently a problem, but auth still needs solving. Emerging standards like WorkOS's AgentAuth add a new identity layer that identifies agents *and* the humans that own them. Netlify's response: [netlify.ai](http://netlify.ai) serves markdown-only to bots instead of the marketing site.
+### The 4 Pillars of AX
+**1. Access**
+- Can the agent access your product?
+- Does your agent have the correct permissions?
+Bots used to get banned for being bots; being a bot is no longer inherently a problem, but auth still needs solving. Emerging standards like WorkOS's AgentAuth add a new identity layer that identifies agents *and* the humans that own them. Netlify's response: [netlify.ai](http://netlify.ai) serves markdown-only to bots instead of the marketing site.
 
-**2. Context** — Does the LLM know about your product? Shipping a Markdown variant of every page is cheaper to read and friendlier to context windows. Model Context Protocol (MCP) exposes what your product knows in a universal format — it's the UI for LLMs — but don't move an API straight to MCP (it'll overwhelm the context window). Same product, different surfaces: an API is for humans (~100 endpoints); an MCP is for agents (~5 tools that progressively give access).
+**2. Context** 
+- Does the LLM know about your product? Shipping a Markdown variant of every page is cheaper to read and friendlier to context windows. Model Context Protocol (MCP) exposes what your product knows in a universal format — it's the UI for LLMs — but don't move an API straight to MCP (it'll overwhelm the context window). Same product, different surfaces: an API is for humans (~100 endpoints); an MCP is for agents (~5 tools that progressively give access).
 
-**3. Tools** — Every product has an Agent Experience, but is it good? A good developer experience (DX) doesn't necessarily mean a good agent experience (AX). For the Netlify CLI, by adding a response that indicates how to use the product without interaction, AX improves by providing an alternative route — a non-interactive escape hatch so an agent can accomplish the same task without human input.
+**3. Tools** 
+- Are you building your product for agents?
+- Every product has an Agent Experience, but is it good?
+A good developer experience (DX) doesn't necessarily mean a good agent experience (AX). For the Netlify CLI, by adding a response that indicates how to use the product without interaction, AX improves by providing an alternative route — a non-interactive escape hatch so an agent can accomplish the same task without human input.
 
-**4. Orchestration** — Make it trivial to kick off longer-running agents in the background of your product (e.g. Linear's background agents). Netlify Agent Runners let you kick off cloud runners with full context so async agents can work autonomously.
+**4. Orchestration**
+Make it trivial to kick off longer-running agents in the background of your product (e.g. Linear's background agents). Netlify Agent Runners let you kick off cloud runners with full context so async agents can work autonomously.
 
 ### The Road Ahead
 """As agents become autonomous and our whole team become builders, we need to reshape every part of our developer platforms"""
