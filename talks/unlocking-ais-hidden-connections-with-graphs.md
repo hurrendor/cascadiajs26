@@ -2,7 +2,7 @@
 
 ## Nyah Macklin
 ### Neo4j, San Francisco, CA USA 
-- [Speaker's Notes (Placeholder)]()
+- [Speaker's Notes](https://docs.google.com/presentation/d/1XnBXq8bACan_OAP0pR6ZPS6FWToHNnIzjKeicFrrgbk/edit?slide=id.g38a852d7ac0_0_148#slide=id.g38a852d7ac0_0_148)
 - [Post-conference YouTube Recording (Placeholder)]()
 ## Abstract: 
 
