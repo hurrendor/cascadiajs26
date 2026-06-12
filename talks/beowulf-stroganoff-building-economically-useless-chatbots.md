@@ -10,3 +10,16 @@ OpenAI says that AGI will perform “most economically valuable work,” but are
 ## Community talk notes: 
 
 [To chat (slowly) with the bot](https://huggingface.co/spaces/MollyJeanB/beowulf-stroganoff)
+
+### The setup
+Ancient times (2022): Dall-E mini. "AGI" isn't a useful term — OpenAI's charter frames it as performing "most economically valuable work," which trends toward flattening culture. So the question: what would happen if we made language models *bad*?
+
+### How
+- **LoRA (Low-Rank Adaptation)** — keep the base model frozen and train on top of it.
+- **v2** — add a big text file of inspirational quotes and slogans.
+
+### Was it worth it?
+- Better than a programmatic randomizer? **Yes.**
+- Useful for creative purposes? **No.**
+
+**Protect your joy. Make bad things!**

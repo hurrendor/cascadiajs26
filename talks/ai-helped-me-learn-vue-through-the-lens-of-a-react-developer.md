@@ -3,6 +3,7 @@
 ## Daniel Mendoza
 ### Storyblok, Chicago, IL, USA 
 - [Slides](https://new.express.adobe.com/publishedV2/urn:aaid:sc:US:5b2e8fce-4bc0-5bcc-bb70-62f7c36f80b2?promoid=Y69SGM5H&mv=other)
+- [Speaker's Website](https://danieljmendoza.com/)
 - [Post-conference YouTube Recording (Placeholder)]()
 ## Abstract: 
 

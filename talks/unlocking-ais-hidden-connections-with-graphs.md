@@ -36,3 +36,19 @@ Step 2. Force your agents to show their work
 [Learn more through GraphAcademy](https://graphacademy.neo4j.com)
 
 [Blog on Context Graphs](https://neo4j.com/blog/agentic-ai/hands-on-with-context-graphs-and-neo4j/)
+
+### Why implicit connections fail
+Fetch from two API endpoints, loop and merge by id — but it breaks because the ids don't match. The connection was wired by hand, and mismatched. Now agents are making decisions about people; if the guess is wrong, you find out later in a war room / post-mortem.
+
+**Example:** Jessica works at Apex Global — which is on the sanctions watchlist. Jessica requests a $25k credit-line increase, and the agent *approves* it. Every fact was there, but the answer is still wrong, because the connection was **implicit, not explicit**.
+
+### Three views of the same thing
+Visual view of an apple, vector view of an apple, knowledge-graph view of an apple — the knowledge-graph view is the one both a human and an AI can understand. Find the connections: one hop? or more than one hop? (e.g. a 4-hop compliance check is a clean Cypher query versus a gnarly SQL one.)
+
+- **Text similarity** finds documents with similar meaning.
+- **Structural similarity** finds entities with similar connections — almost nobody is building the second one.
+
+### Context graphs are new
+Context graph = graph RAG, relatively new (Dec 2025). The contextual difference is tracing the *decision* that was made. Both context graphs and knowledge graphs find the decision path; the missing piece is the "why" — memory. A traditional audit log gives you **records**; a context graph gives you the **why**.
+
+You go from "I have no idea" → full visibility.

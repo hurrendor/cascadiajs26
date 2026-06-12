@@ -56,9 +56,12 @@ Use property-based testing to run regression tests against the requirements:
 The question to keep asking: conceptually, does it work as I expect?
 
 ### A little history
-Kiro grew out of AWS's experience (Alexa) and started life as a VS Code fork
+[Kiro](https://kiro.dev/) grew out of AWS's experience (Alexa) and started life as a VS Code fork
 before becoming a spec-mode tool you can use even in a brownfield app. You don't
 strictly need Kiro — you can tell any AI IDE to follow the same
-requirements → design → implementation flow (Spec-kit, Open Spec, BMad).
+requirements → design → implementation flow (Spec-kit, Open Spec, [BMad](https://github.com/bmad-code-org/bmad-method)).
+
+### A note on when to use SDD
+SDD works best for complex, in-depth features — don't reach for it on every task. For simpler work, the overhead isn't worth it.
 
 ### How Spec Driven Development can make code faster

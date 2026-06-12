@@ -34,10 +34,10 @@ To Joel, it's important to own your code. Enter OpenCode.
 Using swarmtools.ai to operate swarms.
 
 Used the Socratic Method to align intent until Anthropic banned OpenCode.
-Began using OpenClaw, gave his agent a SOUL.md to give a smile.
-Reference: grimlock.ai
+Began using [OpenClaw](https://openclaw.ai/), gave his agent a SOUL.md to give a smile.
+Reference: [grimlock.ai](https://grimlock.ai/)
 Takeaway from OpenClaw - using Pi gives total control.
-Reference: joelclaw.com
+Reference: [joelclaw.com](https://joelclaw.com/)
 Created with Mac Mini, kubernetes
 
 #### Recommendations
@@ -52,6 +52,7 @@ Your agents playing D&D
 Takeaway: """Agent swarms are hard af (but really fun)"""
 
 #### Further references mentioned
+- Joel is working with Matt Pocock on [AIHero](https://aihero.dev) as part of the harness engineering ecosystem.
 - Addy Osmani — "The Orchestration Tax": cognitive bandwidth is not
   parallelizable. The real skill is building systems that can pull any and all
   threads within the context limit.
